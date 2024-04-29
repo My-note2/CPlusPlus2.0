@@ -46,9 +46,9 @@ int main(void)
     cout << ll(10) << endl;
     list<int> l{1, 2, 3};
     list<int>::iterator iterator;
-    iterator = find(l.begin(), l.end(), 10);
+    //iterator = find(l.begin(), l.end(), 10);
 
-    auto ite = find(l.begin(), l.end(), 11);    // auto关键字
+    //auto ite = find(l.begin(), l.end(), 11);    // auto关键字
 
     vector<int> vec;
     //==============range-based for statement===============
